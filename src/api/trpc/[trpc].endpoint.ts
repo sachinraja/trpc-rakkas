@@ -5,7 +5,7 @@ import { Dict, resolveHTTPResponse } from '@trpc/server'
 import { RakkasRequest, RakkasResponse } from 'rakkasjs'
 import { appRouter } from '../../server/routers/_app'
 
-export const get = async (
+export default async (
   rawRequest: RakkasRequest
 ): Promise<RakkasResponse> => {
   const request = rawRequest as RakkasRequest & {
