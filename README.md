@@ -1,5 +1,7 @@
 # tRPC Rakkas Starter
 
+Read about [Rakkas](https://github.com/rakkasjs/rakkasjs) here.
+
 ## Quick start
 
 ```sh
