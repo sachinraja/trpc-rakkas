@@ -9,13 +9,6 @@ const HomePage: Page = () => {
     <main>
       <h1>Hello world!</h1>
       <p>Welcome to Rakkas.JS demo page.</p>
-      <p>
-        Try editing <code>src/pages/page.tsx</code> to get started or go to the{' '}
-        <a href="https://rakkasjs.org" target="_blank" rel="noreferrer">
-          website
-        </a>
-        .
-      </p>
       <p>tRPC endpoint health check: {data ? 'success' : 'failed'}</p>
       {data && <p>Message: {data}</p>}
     </main>
