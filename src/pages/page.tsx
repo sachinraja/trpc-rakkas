@@ -17,6 +17,7 @@ const HomePage: Page = () => {
         .
       </p>
       <p>tRPC endpoint health check: {data ? 'success' : 'failed'}</p>
+      {data && <p>Message: {data}</p>}
     </main>
   )
 }

@@ -11,7 +11,7 @@ export default defineLayout({
     const [queryClient] = useState(() => new QueryClient())
     const [trpcClient] = useState(() =>
       trpc.createClient({
-        url: 'http://localhost:3000/api/trpc',
+        url: '/api/trpc',
         transformer: superjson,
       })
     )
