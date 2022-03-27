@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "rakkas dev --open",
     "build": "rakkas build",
+    "vercel-build": "rakkas build -d vercel",
     "start": "node dist/server",
     "check": "run-p typecheck",
     "typecheck": "tsc -p tsconfig.json --noEmit",
