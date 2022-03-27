@@ -1,6 +1,8 @@
 # tRPC Rakkas Starter
 
-Read about [Rakkas](https://github.com/rakkasjs/rakkasjs) here.
+[tRPC Docs](https://trpc.io/)
+
+[Rakkas Docs](https://rakkasjs.org/)
 
 ## Quick start
 
